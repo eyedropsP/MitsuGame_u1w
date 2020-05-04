@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd4a5880-ea70-43a0-aaeb-64f01dfa9cb9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Character/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/3c/80d1625a/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Character/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/6c/ee31ec22/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/6d/c8e223a2/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/59/e91f26da/SerializeReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/a8/b70b502b/ExcludeFromDocsAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/00/00b28bf2/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/dd/57434cc0/SerializableAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Character/IEatable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableUpdateTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/LineTrace/DirectionController2d.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Examples/Sample01_ObservableWWW.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/LineTrace/Line.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/LineTrace/LineManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/LineTrace/Extensions/Vector3Extension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2DB13BA0-D523-4322-8AA9-892C408FB49A/55/4320c433/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Character/Player/Eat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Character/Move.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Prototype3/Assets/Sprites/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Character/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Script/Slime/Slime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/LineTrace-master/DirectionController2d.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/LineTrace/DirectionController2d.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/LineTrace/Line.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Slime/Move.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Slime/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/Slime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/IEatable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/Move.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/Player/Eat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/IDamageable.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bJYdYaPzd5blkZsbg4DnYDMYiR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13056">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="13056" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd4a5880-ea70-43a0-aaeb-64f01dfa9cb9" name="Default Changelist" comment="" />
+      <created>1588351752087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588351752087</updated>
+      <workItem from="1588351756957" duration="763000" />
+      <workItem from="1588352978905" duration="480000" />
+      <workItem from="1588353478215" duration="15000" />
+      <workItem from="1588353734246" duration="5096000" />
+      <workItem from="1588397400783" duration="797000" />
+      <workItem from="1588400419751" duration="20669000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state width="1106" height="251" key="GridCell.Tab.0.bottom" timestamp="1588442718108">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.0.bottom/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718108" />
+    <state width="1106" height="251" key="GridCell.Tab.0.center" timestamp="1588442718108">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.0.center/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718108" />
+    <state width="1106" height="251" key="GridCell.Tab.0.left" timestamp="1588442718107">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.0.left/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718107" />
+    <state width="1106" height="251" key="GridCell.Tab.0.right" timestamp="1588442718108">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.0.right/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718108" />
+    <state width="1106" height="251" key="GridCell.Tab.1.bottom" timestamp="1588442718108">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.1.bottom/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718108" />
+    <state width="1106" height="251" key="GridCell.Tab.1.center" timestamp="1588442718108">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.1.center/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718108" />
+    <state width="1106" height="251" key="GridCell.Tab.1.left" timestamp="1588442718108">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.1.left/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718108" />
+    <state width="1106" height="251" key="GridCell.Tab.1.right" timestamp="1588442718108">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.1.right/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718108" />
+    <state width="1106" height="251" key="GridCell.Tab.2.bottom" timestamp="1588442718109">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.2.bottom/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718109" />
+    <state width="1106" height="251" key="GridCell.Tab.2.center" timestamp="1588442718109">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.2.center/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718109" />
+    <state width="1106" height="251" key="GridCell.Tab.2.left" timestamp="1588442718109">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.2.left/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718109" />
+    <state width="1106" height="251" key="GridCell.Tab.2.right" timestamp="1588442718109">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.2.right/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718109" />
+    <state width="1106" height="251" key="GridCell.Tab.3.bottom" timestamp="1588442718110">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.3.bottom/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718110" />
+    <state width="1106" height="251" key="GridCell.Tab.3.center" timestamp="1588442718109">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.3.center/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718109" />
+    <state width="1106" height="251" key="GridCell.Tab.3.left" timestamp="1588442718109">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.3.left/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718109" />
+    <state width="1106" height="251" key="GridCell.Tab.3.right" timestamp="1588442718110">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1106" height="251" key="GridCell.Tab.3.right/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588442718110" />
+    <state x="2233" y="570" key="RiderGenerateDialog" timestamp="1588440206109">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="2233" y="570" key="RiderGenerateDialog/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588440206109" />
+    <state x="2011" y="489" key="SettingsEditor" timestamp="1588440327405">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="2011" y="489" key="SettingsEditor/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588440327405" />
+  </component>
+</project>
