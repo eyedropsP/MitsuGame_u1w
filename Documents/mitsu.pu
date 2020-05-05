@@ -1,0 +1,117 @@
+@startuml Mitsu
+
+namespace Managers{
+    class GameStateManager << MonoBehaviour >> {
+        + IReadOnlyReactiveProperty<GameState> CurrentState
+    }
+    class ResultManager << MonoBehaviour>>{
+
+    }
+    class GameInitializer{
+
+    }
+    enum GameState{
+        Ready
+        InGame
+        Finished
+    }
+    GameStateManager --> GameState
+    GameStateManager --> GameInitializer
+    ResultManager --> GameStateManager
+    GameInitializer -[hidden]le- GameStateManager
+}
+
+namespace Slime{
+    interface IInputEventProvider{
+        + IReadOnlyReactiveProperty<bool> ActionButton()
+        + IReadOnlyReactiveProperty<Vector3> MoveDirection()
+    }
+
+    class PlayerMover << MonoBehaviour >>{
+
+    }
+
+    class PlayerCore << MonoBehaviour >>{
+        + IReadOnlyReactiveProperty<float> Energy
+        + IReadOnlyReactiveProperty<int> Hp
+        + Damage damage
+        + void ApplyDamage(Damage damage)
+    }
+
+    class PlayerAnimation{
+        
+    }
+
+    class PlayerEffectEmitter{
+
+    }
+    namespace Shots{
+        class PlayerShot << MonoBehaviour >>{
+            + void TryShot()
+        }
+    }
+}
+
+namespace Damages{
+    interface IDamageableApplicable
+    {
+        void ApplyDamage(Damage damage)
+    }
+
+    class Damage << Struct >>{
+        + bool isEat
+    }
+}
+
+namespace Enemy{
+    class BaseEnemy<< MonoBehaviour >>{
+        
+    }
+    class Enemy01{
+        
+    }
+    class Boss{
+
+    }
+    class EnemyAnimation{
+
+    }
+}
+
+namespace Eats{
+    class Edible{
+
+    }
+    interface IEdible
+    {
+        + IReadOnlyReactiveProperty<bool> isEat
+        + bool TryEat()
+        + void Dump()
+    }
+    Edible --> IEdible
+}
+Slime.PlayerCore --> Eats.IEdible : Eat
+Slime.PlayerCore ..|> Damages.IDamageableApplicable
+Slime.Shots.PlayerShot --> Damages.IDamageableApplicable : Attack
+Slime.IInputEventProvider <-- Slime.Shots.PlayerShot
+Slime.PlayerCore <-- Slime.Shots.PlayerShot
+Slime.IInputEventProvider <-- Slime.PlayerMover : Observe input event
+Slime.IInputEventProvider -[hidden]up- Slime.PlayerMover
+Slime.PlayerCore -[hidden]le- Slime.PlayerMover
+Slime.PlayerCore -[hidden]le- Slime.IInputEventProvider
+Slime.PlayerMover -[hidden]do- Slime.PlayerCore
+
+Damages.IDamageableApplicable --> Damages.Damage
+Damages.IDamageableApplicable -[hidden]ri- Damages.Damage
+
+Enemy.BaseEnemy <|-- Enemy.Enemy01
+Enemy.BaseEnemy <|-- Enemy.Boss
+Enemy.BaseEnemy ..|> Eats.IEdible
+Enemy.BaseEnemy ..|> Damages.IDamageableApplicable
+Enemy.Enemy01 --> Damages.IDamageableApplicable : Attack
+Enemy.Boss --> Damages.IDamageableApplicable : Attack
+Enemy.Enemy01 -[hidden]ri- Enemy.Boss
+Enemy.BaseEnemy -[hidden]do- Enemy.Enemy01
+Enemy.BaseEnemy -[hidden]do- Enemy.Boss
+
+@enduml

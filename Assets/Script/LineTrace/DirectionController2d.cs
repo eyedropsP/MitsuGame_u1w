@@ -1,9 +1,9 @@
-﻿using LineTrace;
-using UniRx;
+﻿using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
+using LineTrace.Extensions;
 
-namespace Script.LineTrace
+namespace LineTrace
 {
     public class DirectionController2d : MonoBehaviour
     {

@@ -4,6 +4,7 @@ using System.Collections;
 using UniRx;
 using System.Linq;
 using System.Collections.Generic;
+using LineTrace.Extensions;
 
 namespace LineTrace
 {

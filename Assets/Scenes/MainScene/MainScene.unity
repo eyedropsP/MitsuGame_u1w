@@ -33640,7 +33640,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896228489}
-  m_LocalRotation: {x: 0.0944337, y: -0.7653128, z: 0.11542464, w: 0.6261436}
+  m_LocalRotation: {x: 0.09443371, y: -0.7653128, z: 0.11542465, w: 0.6261436}
   m_LocalPosition: {x: 6.67, y: 5.68, z: 0.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -33870,6 +33870,7 @@ GameObject:
   - component: {fileID: 1023187386}
   - component: {fileID: 1023187385}
   - component: {fileID: 1023187384}
+  - component: {fileID: 1023187387}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -33939,6 +33940,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &1023187387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023187382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80dba47f5f04e648ac0913bb84d8122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energy:
+    value: 10
+  hp:
+    value: 6
 --- !u!1 &1119804583
 GameObject:
   m_ObjectHideFlags: 0

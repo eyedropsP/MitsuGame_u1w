@@ -1,7 +1,7 @@
-﻿namespace Script.Character
+﻿namespace Damages
 {
 	public interface IDamageable
 	{
-		void AddDamage(int damage);
+		void AddDamage();
 	}
 }

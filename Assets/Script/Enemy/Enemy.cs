@@ -1,24 +1,27 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Runtime.CompilerServices;
+using Damages;
+using Eats;
+using UniRx;
+using UniRx.Triggers;
+using UniRx.Async;
+using UniRx.Async.Triggers;
 
-namespace Script.Character.Enemy
+namespace Enemy
 {
-    public class Enemy : MonoBehaviour, IEatable
+    public class Enemy : BaseEnemy
     {
-        // Start is called before the first frame update
-        void Start()
+        private void Start()
         {
-        
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
-        
-        public void Eaten()
-        {
-            Destroy(gameObject);
+            this.OnCollisionEnterAsObservable()
+                .Select(x => x.gameObject.GetComponent<IEdible>())
+                .Where(x => x != null)
+                .Subscribe();
+            
+            this.OnCollisionEnterAsObservable()
+                .Select(x => x.gameObject.GetComponent<IDamageable>())
+                .Where(x => x != null)
+                .Subscribe();
         }
     }
 }

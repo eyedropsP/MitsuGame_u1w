@@ -1,5 +1,4 @@
-﻿using Script.LineTrace;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace LineTrace
 {
