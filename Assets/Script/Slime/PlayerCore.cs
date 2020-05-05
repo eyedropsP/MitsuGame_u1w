@@ -1,6 +1,7 @@
 ﻿using System;
 using Damages;
 using UniRx;
+using UniRx.Triggers;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -43,8 +44,6 @@ namespace Slime
                 .Subscribe(_ =>
                 {
                     hp.Value--;
-                    Debug.Log(Hp.Value);
-                    Debug.Log(IsDead.Value);
                 });
         }
     }

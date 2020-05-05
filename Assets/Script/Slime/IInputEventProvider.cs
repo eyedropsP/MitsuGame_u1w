@@ -1,9 +1,14 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UniRx;
+using UnityEngine;
 
 namespace Slime
 {
-	public class IInputEventProvider : MonoBehaviour
+	interface IInputEventProvider
 	{
-	
+		IReadOnlyReactiveProperty<bool> JumpButton { get; }
+		IReadOnlyReactiveProperty<bool> EatButton { get; }
+		IReadOnlyReactiveProperty<bool> ShotButton { get; }
+		IReadOnlyReactiveProperty<float> MoveHorizontal { get; }
 	}
 }
