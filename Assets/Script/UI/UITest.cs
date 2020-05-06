@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class UITest : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -12,6 +12,10 @@ public class UITest : MonoBehaviour
 
     public UINumController bulletNum;
     public UINumController energyNum;
+
+    public InputField field;
+
+    public GameObject debugParts;
 
 
     public void AddBullet(int num)
@@ -35,9 +39,28 @@ public class UITest : MonoBehaviour
         energyNum.SubNum(num);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void SetBullet() {
+        if (field != null)
+        {
+            var temp = int.Parse (field.text);
+            bulletNum.SetNum(temp);
+        }
     }
+
+    public void SetEnergy() {
+        if (field != null)
+        {
+            var temp = int.Parse (field.text);
+            energyNum.SetNum(temp);
+        }
+    }
+
+    public void ToggleDebugUI() {
+        if (debugParts != null) {
+            if (GetComponent<Toggle>() != null) {
+                debugParts.SetActive(GetComponent<Toggle>().isOn);
+            }
+        }
+    }
+
 }
