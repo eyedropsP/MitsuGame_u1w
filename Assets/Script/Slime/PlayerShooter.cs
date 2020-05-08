@@ -1,6 +1,7 @@
 ﻿using System;
 using UniRx;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace Slime
 {
@@ -8,6 +9,7 @@ namespace Slime
 	{
 		[SerializeField] private PlayerCore playerCore = default;
 		[SerializeField] private GameObject bullet = default;
+		[SerializeField] private GameObject ShotPos = default;
 		
 		private void Start()
 		{
@@ -25,7 +27,8 @@ namespace Slime
 		void Shot()
 		{
 			// TODO:射撃
-			Instantiate(bullet, transform.position, transform.rotation);
+			// ReSharper disable once Unity.InefficientPropertyAccess
+			Instantiate(bullet, ShotPos.transform.position, transform.rotation);
 		}
 	}
 }

@@ -10,7 +10,7 @@ namespace Slime
     public class PlayerCore : MonoBehaviour, IDamageable
     {
         private ReactiveProperty<PlayerHp> hp = new ReactiveProperty<PlayerHp>(new PlayerHp(6));
-        private ReactiveProperty<Energy> energy = new ReactiveProperty<Energy>(new Energy(10.0f));
+        private ReactiveProperty<Energy> energy = new ReactiveProperty<Energy>(new Energy(40.0f));
         public IReadOnlyReactiveProperty<Energy> Energy => energy;
         public IReadOnlyReactiveProperty<PlayerHp> Hp => hp;
         public ReadOnlyReactiveProperty<bool> IsDead;

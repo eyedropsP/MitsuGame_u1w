@@ -14,11 +14,17 @@ namespace Slime
 		[Header("弾の攻撃力")][SerializeField] private float power = 20.0f;
 		[Header("弾のスピード")][SerializeField] private float bulletSpeed = 5.0f;
 		[SerializeField] private LayerMask platformLayerMask = default;
-		[SerializeField] private LayerMask playerLayerMask = default;
 		[SerializeField] private DirectionController2d controller = default;
 		
 		private void Start()
 		{
+			var yRotate = transform.rotation.normalized.eulerAngles.y;
+
+			if (yRotate >= 0 && yRotate <= 180)
+				controller.direction = Direction.front;
+			else
+				controller.direction = Direction.back;
+			
 			this.UpdateAsObservable()
 				.Subscribe(_ =>
 				{
@@ -26,9 +32,9 @@ namespace Slime
 				});
 			
 			this.OnCollisionEnterAsObservable()
-				.Where(x => x.gameObject.layer != playerLayerMask)		
 				.Subscribe(x =>
 				{
+					
 					if (x != null && (((1 << x.gameObject.layer) & platformLayerMask) != 0))
 					{
 						Destroy(gameObject);

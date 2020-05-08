@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 12821127987619043}
   - component: {fileID: 8550813075289984382}
   - component: {fileID: 4441852485210496363}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,5 +149,8 @@ MonoBehaviour:
     m_Bits: 256
   playerLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   controller: {fileID: 8550813075289984382}
+  myLayerMask:
+    serializedVersion: 2
+    m_Bits: 1024

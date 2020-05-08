@@ -49,6 +49,7 @@ namespace Slime
 						// TODO:吐き出す音
 						// TODO:吐き出すエフェクト
 						// TODO:密着状態でEatButton(吐き出し)
+						// TODO:吐き出した敵は死ぬ
 					}
 					else
 					{

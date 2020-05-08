@@ -1,4 +1,5 @@
-﻿using LineTrace;
+﻿using System;
+using LineTrace;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
@@ -8,7 +9,7 @@ namespace Slime
     public class PlayerMover : MonoBehaviour
     {
         public Vector3 PlayerDirection { get; private set; }
-        [SerializeField] private DirectionController2d Controller = default;
+        [SerializeField]private DirectionController2d Controller = default;
         [Header("ジャンプ力")][SerializeField] private float jumpForce = 8.0f;
         [Header("移動スピード")][SerializeField] private float speed = 6.0f;
         [SerializeField] private LayerMask platformLayerMask = default;
