@@ -9,18 +9,15 @@ namespace Slime
 {
     public class PlayerCore : MonoBehaviour, IDamageable
     {
-        [SerializeField]
-        private FloatReactiveProperty energy = new FloatReactiveProperty(10.0f);
-        [SerializeField]
-        private IntReactiveProperty hp = new IntReactiveProperty(6);
-        
-        public IReactiveProperty<float> Energy => energy;
-        public IReadOnlyReactiveProperty<int> Hp => hp;
+        private ReactiveProperty<PlayerHp> hp = new ReactiveProperty<PlayerHp>(new PlayerHp(6));
+        private ReactiveProperty<Energy> energy = new ReactiveProperty<Energy>(new Energy(10.0f));
+        public IReadOnlyReactiveProperty<Energy> Energy => energy;
+        public IReadOnlyReactiveProperty<PlayerHp> Hp => hp;
         public ReadOnlyReactiveProperty<bool> IsDead;
 
         private void Awake()
         {
-            IsDead = hp.Select(x => x <= 0).ToReadOnlyReactiveProperty();
+            IsDead = Hp.Select(x => x.Value <= 0).ToReadOnlyReactiveProperty();
         }
 
         // Start is called before the first frame update
@@ -28,22 +25,17 @@ namespace Slime
         {
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-            
-        }
         /// <summary>
-        /// 体力はハート制、1ずつ減る
+        /// 体力はハート制、1ずつ減る(たぶん)
         /// </summary>
-        public void AddDamage()
+        public void AddDamage(float damage)
         {
-            hp
+            Hp
                 .Take(1)
-                .Where(x => x > 0)
+                .Where(x => x.Value > 0)
                 .Subscribe(_ =>
                 {
-                    hp.Value--;
+                    Hp.Value.Sub((int)damage);
                 });
         }
     }

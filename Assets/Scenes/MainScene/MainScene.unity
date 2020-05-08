@@ -33351,13 +33351,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661602215}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.509, y: -0.151, z: -0.284}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -10.85, y: -0.546, z: 0.776}
+  m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &661602220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33629,12 +33629,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1023187383}
+  - component: {fileID: 1023187384}
+  - component: {fileID: 1023187390}
   - component: {fileID: 1023187386}
   - component: {fileID: 1023187385}
   - component: {fileID: 1023187387}
   - component: {fileID: 1023187388}
+  - component: {fileID: 1023187391}
   - component: {fileID: 1023187389}
-  m_Layer: 0
+  - component: {fileID: 1023187392}
+  m_Layer: 9
   m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33657,6 +33661,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1023187384
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023187382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.27, z: 1}
+  m_Center: {x: 0, y: -0.5, z: 0}
 --- !u!114 &1023187385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33700,10 +33717,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c80dba47f5f04e648ac0913bb84d8122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energy:
-    value: 10
-  hp:
-    value: 6
 --- !u!114 &1023187388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33719,6 +33732,9 @@ MonoBehaviour:
   Controller: {fileID: 1023187385}
   jumpForce: 8
   speed: 6
+  platformLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!114 &1023187389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33731,6 +33747,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 849371b3d98c26941943bb409c3f4140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &1023187390
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023187382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.7}
+--- !u!114 &1023187391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023187382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043cec5d44a1474a910c157961997a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCore: {fileID: 1023187387}
+  bullet: {fileID: 3600765871560607323, guid: a15c1d78a2e691141bcb19ec591b55e1, type: 3}
+--- !u!114 &1023187392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023187382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe83072b104b4eddb0ca767849b949b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 1433923371}
+  capsuleCastRadius: 0.5
+  capsuleCastDistance: 1.5
+  capsuleCastHeight: 0.25
+  capsuleCastMinDistance: 0.7
 --- !u!1 &1119804583
 GameObject:
   m_ObjectHideFlags: 0
@@ -33744,7 +33805,7 @@ GameObject:
   - component: {fileID: 1119804586}
   - component: {fileID: 1119804585}
   - component: {fileID: 1119804584}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -66632,7 +66693,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17292
+  m_Name: pb_Mesh17288
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -66800,7 +66861,7 @@ GameObject:
   - component: {fileID: 1272802473}
   - component: {fileID: 1272802476}
   - component: {fileID: 1272802475}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SlimeEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67003,8 +67064,7 @@ GameObject:
   - component: {fileID: 1433923369}
   - component: {fileID: 1433923368}
   - component: {fileID: 1433923372}
-  - component: {fileID: 1433923373}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67079,7 +67139,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433923367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00000005960463, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1272802473}
@@ -67106,19 +67166,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!135 &1433923373
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433923367}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.4
-  m_Center: {x: 0, y: 0, z: 1}
 --- !u!1 &1474987278
 GameObject:
   m_ObjectHideFlags: 0
@@ -67249,7 +67296,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17230
+  m_Name: pb_Mesh21472
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -67415,7 +67462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1794670419}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TargetPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67629,7 +67676,7 @@ GameObject:
   - component: {fileID: 2133670022}
   - component: {fileID: 2133670025}
   - component: {fileID: 2133670024}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SlimeEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}

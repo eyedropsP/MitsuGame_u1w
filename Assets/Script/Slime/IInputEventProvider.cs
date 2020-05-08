@@ -9,6 +9,7 @@ namespace Slime
 		IReadOnlyReactiveProperty<bool> JumpButton { get; }
 		IReadOnlyReactiveProperty<bool> EatButton { get; }
 		IReadOnlyReactiveProperty<bool> ShotButton { get; }
+		IReadOnlyReactiveProperty<bool> AbsorbButton { get; }
 		IReadOnlyReactiveProperty<float> MoveHorizontal { get; }
 	}
 }

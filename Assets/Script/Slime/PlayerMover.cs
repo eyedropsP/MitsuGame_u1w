@@ -7,17 +7,21 @@ namespace Slime
 {
     public class PlayerMover : MonoBehaviour
     {
-        [SerializeField] private DirectionController2d Controller;
-        [SerializeField] private float jumpForce = 8.0f;
-	    [SerializeField] private float speed = 6.0f;
-        
+        public Vector3 PlayerDirection { get; private set; }
+        [SerializeField] private DirectionController2d Controller = default;
+        [Header("ジャンプ力")][SerializeField] private float jumpForce = 8.0f;
+        [Header("移動スピード")][SerializeField] private float speed = 6.0f;
+        [SerializeField] private LayerMask platformLayerMask = default;
+
         private BoolReactiveProperty isOnGround = new BoolReactiveProperty(); 
         private Rigidbody playerRb;
-        
+
         // Start is called before the first frame update
-        void Start()
+        private void Start()
         {
+            PlayerDirection = transform.position;
             playerRb = GetComponent<Rigidbody>();
+            var boxCollider = GetComponent<BoxCollider>();
             var input = GetComponent<IInputEventProvider>();
             // 左
             input.MoveHorizontal
@@ -25,28 +29,32 @@ namespace Slime
                 .Subscribe(x =>
                 {
                     Controller.direction = Direction.back;
-                    transform.position += Controller.forward * (speed * Mathf.Abs(x) * Time.deltaTime);
-                });
+                    PlayerDirection = Controller.forward;
+                    transform.position += PlayerDirection * (speed * Mathf.Abs(x) * Time.deltaTime);
+                })
+                .AddTo(this);
             // 右
             input.MoveHorizontal
                 .Where(x => x > 0)
                 .Subscribe(x =>
                 {
                     Controller.direction = Direction.front;
-                    transform.position += Controller.forward * (speed * Mathf.Abs(x) * Time.deltaTime);
-                });
+                    PlayerDirection = Controller.forward;
+                    transform.position += PlayerDirection * (speed * Mathf.Abs(x) * Time.deltaTime);
+                })
+                .AddTo(this);
             // ジャンプ
             input.JumpButton
                 .Where(x => x && isOnGround.Value)
-                .Subscribe(_ =>
-                {
-                    playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-                    isOnGround.Value = false;
-                });
-            // 着地
-            this.OnCollisionEnterAsObservable()
-                .Where(x => x.gameObject.CompareTag("Ground"))
-                .Subscribe(_ => isOnGround.Value = true);
+                .Subscribe(_ => playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse))
+                .AddTo(this);
+            // 接地判定
+            boxCollider.OnCollisionStayAsObservable()
+                .Subscribe(x => isOnGround.Value = x != null && (((1 << x.gameObject.layer) & platformLayerMask) != 0))
+                .AddTo(this);
+            boxCollider.OnCollisionExitAsObservable()
+                .Subscribe(_ => isOnGround.Value = false)
+                .AddTo(this);
         }
     }
 }

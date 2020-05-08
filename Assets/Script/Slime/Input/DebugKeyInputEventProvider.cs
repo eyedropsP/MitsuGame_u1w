@@ -1,6 +1,7 @@
 ﻿using UniRx; 
 using UniRx.Triggers;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 namespace Slime.Input
 {
@@ -9,11 +10,13 @@ namespace Slime.Input
         private readonly  ReactiveProperty<bool> _jumpButtonPushed = new ReactiveProperty<bool>();
         private readonly ReactiveProperty<bool> _eatButtonPushed = new ReactiveProperty<bool>();
         private readonly  ReactiveProperty<bool> _shotButtonPushed = new ReactiveProperty<bool>();
+        private readonly  ReactiveProperty<bool> _absorbButtonPushed = new ReactiveProperty<bool>();
         private readonly ReactiveProperty<float> _moveHorizontal = new ReactiveProperty<float>();
         
         public IReadOnlyReactiveProperty<bool> JumpButton => _jumpButtonPushed;
         public IReadOnlyReactiveProperty<bool> EatButton => _eatButtonPushed;
         public IReadOnlyReactiveProperty<bool> ShotButton => _shotButtonPushed;
+        public IReadOnlyReactiveProperty<bool> AbsorbButton => _absorbButtonPushed;
         public IReadOnlyReactiveProperty<float> MoveHorizontal => _moveHorizontal;
 
         private void Start()
@@ -24,7 +27,7 @@ namespace Slime.Input
                 .DistinctUntilChanged()
                 .Subscribe(x => _jumpButtonPushed.Value = x);
             
-            // 食べるボタン
+            // 密着ボタン
             this.UpdateAsObservable()
                 .Select(_ => UnityEngine.Input.GetButtonDown("Eat"))
                 .DistinctUntilChanged()
@@ -36,6 +39,12 @@ namespace Slime.Input
                 .DistinctUntilChanged()
                 .Subscribe(x => _shotButtonPushed.Value = x);
                 
+            // 吸収ボタン
+            this.UpdateAsObservable()
+                .Select(_ => UnityEngine.Input.GetButtonDown("Absorb"))
+                .DistinctUntilChanged()
+                .Subscribe(x => _absorbButtonPushed.Value = x);
+            
             // 左右
             this.UpdateAsObservable()
                 .Select(_ => UnityEngine.Input.GetAxis("Horizontal"))
@@ -45,6 +54,7 @@ namespace Slime.Input
             _jumpButtonPushed.AddTo(this);
             _eatButtonPushed.AddTo(this);
             _shotButtonPushed.AddTo(this);
+            _absorbButtonPushed.AddTo(this);
             _moveHorizontal.AddTo(this);
         }
     }
