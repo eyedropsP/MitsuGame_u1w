@@ -419,6 +419,10 @@
             <e p="GameState.cs" t="Include" />
             <e p="GameStateManager.cs" t="Include" />
             <e p="ResultManager.cs" t="Include" />
+            <e p="SwitchCamera.cs" t="Include" />
+          </e>
+          <e p="Obstacle" t="Include">
+            <e p="CollisionObstacle.cs" t="Include" />
           </e>
           <e p="Slime" t="Include">
             <e p="Bullet.cs" t="Include" />

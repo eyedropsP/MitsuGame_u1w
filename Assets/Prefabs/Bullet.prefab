@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6575850757157939085}
   - component: {fileID: 3350778040502016970}
   - component: {fileID: 2463349091172697269}
-  - component: {fileID: 6763209187838868886}
   - component: {fileID: 12821127987619043}
   - component: {fileID: 8550813075289984382}
   - component: {fileID: 4441852485210496363}
@@ -62,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 01be86dd5eade6342907db2de93f4272, type: 2}
+  - {fileID: 2100000, guid: 722b4b533df09f0448f047e39a0f0fa5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,19 +82,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &6763209187838868886
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3600765871560607323}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &12821127987619043
 Animator:
   serializedVersion: 3
@@ -143,14 +129,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 20
-  bulletSpeed: 5
-  platformLayerMask:
-    serializedVersion: 2
-    m_Bits: 256
-  playerLayerMask:
-    serializedVersion: 2
-    m_Bits: 512
+  bulletSpeed: 10
   controller: {fileID: 8550813075289984382}
-  myLayerMask:
-    serializedVersion: 2
-    m_Bits: 1024

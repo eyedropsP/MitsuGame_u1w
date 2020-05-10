@@ -2,16 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd4a5880-ea70-43a0-aaeb-64f01dfa9cb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Material/Ground.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Material/Ground.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Materials/Nature_Texture_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Materials/Nature_Texture_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Branch_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Branch_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Bush_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Bush_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Bush_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Bush_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Grass_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Grass_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Grass_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Grass_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Ground_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Ground_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Ground_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Ground_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Mushroom_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Mushroom_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Mushroom_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Mushroom_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Rock_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Rock_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Rock_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Rock_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Rock_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Rock_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Rock_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Rock_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Stump_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Stump_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Tree_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Tree_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Tree_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Models/Tree_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Branch_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Branch_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Bush_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Bush_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Bush_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Bush_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Grass_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Grass_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Grass_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Grass_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Ground_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Ground_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Ground_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Ground_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Mushroom_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Mushroom_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Mushroom_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Mushroom_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Rock_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Rock_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Rock_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Rock_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Rock_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Rock_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Rock_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Rock_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Stump_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Stump_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Tree_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Tree_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Tree_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Prefabs/Tree_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Scenes/Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Scenes/Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Textures/Nature_Texture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaturePackLite/Textures/Nature_Texture_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/MainScene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/MainScene/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/MainScene/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Managers/SwitchCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Managers/SwitchCamera.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Obstacle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Obstacle/CollisionObstacle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Obstacle/CollisionObstacle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/TransparentShadow.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/TransparentShadow.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MitsuGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MitsuGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MitsuGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MitsuGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Material/SlimeBody.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/SlimeBody.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Material/SlimeBody.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/SlimeBody.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RenderPipeline/UniversalRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderPipeline/UniversalRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/ReflectionProbe-0.exr.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Slime/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Slime/Bullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Slime/PlayerCore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Slime/PlayerCore.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Slime/PlayerEater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Slime/PlayerEater.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Slime/PlayerMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Slime/PlayerMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Slime/PlayerShooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Slime/PlayerShooter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,27 +119,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/Eats/Edible.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/Input/DebugKeyInputEventProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerExtensions.Component.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/UniRx.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Managers/SwitchCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/3c/80d1625a/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerCore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.5.0/Editor/Editors/CinemachineTrackedDollyEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/6c/ee31ec22/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy/EnemyHp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/6d/c8e223a2/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/59/e91f26da/SerializeReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Obstacle/CollisionObstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/a8/b70b502b/ExcludeFromDocsAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/00/00b28bf2/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/dd/57434cc0/SerializableAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerEffectEmitter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/IInputEventProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Observable.Unity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/Energy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableUpdateTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/UI/UINumController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/LineTrace/DirectionController2d.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Examples/Sample01_ObservableWWW.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/LineTrace/Line.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,18 +139,34 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Managers/ResultManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/LineTrace/Extensions/IEnumrableExtension.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Managers/GameState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerEater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Eats/IEdible.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Managers/GameInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/LineTrace/Extensions/Vector2Extension.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/LineTrace/Extensions/Vector3Extension.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2DB13BA0-D523-4322-8AA9-892C408FB49A/55/4320c433/Input.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Prototype3/Assets/Sprites/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy/BaseEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerHp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/Input/DebugKeyInputEventProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerCore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy/EnemyHp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/59/e91f26da/SerializeReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/a8/b70b502b/ExcludeFromDocsAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/dd/57434cc0/SerializableAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerEffectEmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/IInputEventProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/Energy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableUpdateTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/UI/UINumController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerEater.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/c9/f8de4d76/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2DB13BA0-D523-4322-8AA9-892C408FB49A/55/4320c433/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Shaders/Unlit.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Slime/PlayerHp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -90,7 +192,6 @@
         <option value="$PROJECT_DIR$/Assets/Script/Eats/IEdible.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Eats/Edible.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enemy/BaseEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Enemy/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Slime/GroundCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Slime/Hp.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Damages/IDamageable.cs" />
@@ -102,11 +203,15 @@
         <option value="$PROJECT_DIR$/Assets/Script/UI/UINumController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Slime/Bullet/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Slime/Energy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Slime/PlayerShooter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shader/TransparentShadowCollenctor.shader" />
+        <option value="$PROJECT_DIR$/Assets/Script/Obstacle/CollisionObstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Managers/SwitchCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Slime/PlayerEater.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Slime/PlayerMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Slime/PlayerCore.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Slime/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Slime/PlayerShooter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Slime/PlayerMover.cs" />
       </list>
     </option>
   </component>
@@ -142,10 +247,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20692">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20692" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -171,7 +276,9 @@
       <workItem from="1588753138025" duration="19492000" />
       <workItem from="1588816229720" duration="15933000" />
       <workItem from="1588871524431" duration="1299000" />
-      <workItem from="1588908248069" duration="15266000" />
+      <workItem from="1588908248069" duration="19702000" />
+      <workItem from="1588999176858" duration="20764000" />
+      <workItem from="1589073417483" duration="17709000" />
     </task>
     <servers />
   </component>
@@ -201,86 +308,86 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="449" height="466" key="DebuggerActiveHint/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955534526" />
-    <state width="1178" height="251" key="GridCell.Tab.0.bottom" timestamp="1588955284862">
+    <state width="1178" height="251" key="GridCell.Tab.0.bottom" timestamp="1588963307090">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.0.bottom/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906348" />
-    <state width="1178" height="251" key="GridCell.Tab.0.bottom/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284862" />
-    <state width="1178" height="251" key="GridCell.Tab.0.center" timestamp="1588955284861">
+    <state width="1178" height="251" key="GridCell.Tab.0.bottom/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307090" />
+    <state width="1178" height="251" key="GridCell.Tab.0.center" timestamp="1588963307090">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.0.center/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906348" />
-    <state width="1178" height="251" key="GridCell.Tab.0.center/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284861" />
-    <state width="1178" height="251" key="GridCell.Tab.0.left" timestamp="1588955284861">
+    <state width="1178" height="251" key="GridCell.Tab.0.center/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307090" />
+    <state width="1178" height="251" key="GridCell.Tab.0.left" timestamp="1588963307090">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.0.left/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906348" />
-    <state width="1178" height="251" key="GridCell.Tab.0.left/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284861" />
-    <state width="1178" height="251" key="GridCell.Tab.0.right" timestamp="1588955284861">
+    <state width="1178" height="251" key="GridCell.Tab.0.left/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307090" />
+    <state width="1178" height="251" key="GridCell.Tab.0.right" timestamp="1588963307090">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.0.right/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906348" />
-    <state width="1178" height="251" key="GridCell.Tab.0.right/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284861" />
-    <state width="1178" height="251" key="GridCell.Tab.1.bottom" timestamp="1588955356581">
+    <state width="1178" height="251" key="GridCell.Tab.0.right/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307090" />
+    <state width="1178" height="251" key="GridCell.Tab.1.bottom" timestamp="1588963307090">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.1.bottom/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906348" />
-    <state width="1178" height="251" key="GridCell.Tab.1.bottom/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955356581" />
-    <state width="1178" height="251" key="GridCell.Tab.1.center" timestamp="1588955356580">
+    <state width="1178" height="251" key="GridCell.Tab.1.bottom/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307090" />
+    <state width="1178" height="251" key="GridCell.Tab.1.center" timestamp="1588963307090">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.1.center/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906348" />
-    <state width="1178" height="251" key="GridCell.Tab.1.center/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955356580" />
-    <state width="1178" height="251" key="GridCell.Tab.1.left" timestamp="1588955356580">
+    <state width="1178" height="251" key="GridCell.Tab.1.center/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307090" />
+    <state width="1178" height="251" key="GridCell.Tab.1.left" timestamp="1588963307090">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.1.left/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906348" />
-    <state width="1178" height="251" key="GridCell.Tab.1.left/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955356580" />
-    <state width="1178" height="251" key="GridCell.Tab.1.right" timestamp="1588955356581">
+    <state width="1178" height="251" key="GridCell.Tab.1.left/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307090" />
+    <state width="1178" height="251" key="GridCell.Tab.1.right" timestamp="1588963307090">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.1.right/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906348" />
-    <state width="1178" height="251" key="GridCell.Tab.1.right/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955356581" />
-    <state width="1178" height="251" key="GridCell.Tab.2.bottom" timestamp="1588955284795">
+    <state width="1178" height="251" key="GridCell.Tab.1.right/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307090" />
+    <state width="1178" height="251" key="GridCell.Tab.2.bottom" timestamp="1588963307091">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.2.bottom/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906349" />
-    <state width="1178" height="251" key="GridCell.Tab.2.bottom/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284795" />
-    <state width="1178" height="251" key="GridCell.Tab.2.center" timestamp="1588955284795">
+    <state width="1178" height="251" key="GridCell.Tab.2.bottom/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307091" />
+    <state width="1178" height="251" key="GridCell.Tab.2.center" timestamp="1588963307091">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.2.center/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906348" />
-    <state width="1178" height="251" key="GridCell.Tab.2.center/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284795" />
-    <state width="1178" height="251" key="GridCell.Tab.2.left" timestamp="1588955284795">
+    <state width="1178" height="251" key="GridCell.Tab.2.center/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307091" />
+    <state width="1178" height="251" key="GridCell.Tab.2.left" timestamp="1588963307090">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.2.left/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906348" />
-    <state width="1178" height="251" key="GridCell.Tab.2.left/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284795" />
-    <state width="1178" height="251" key="GridCell.Tab.2.right" timestamp="1588955284795">
+    <state width="1178" height="251" key="GridCell.Tab.2.left/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307090" />
+    <state width="1178" height="251" key="GridCell.Tab.2.right" timestamp="1588963307091">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.2.right/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906349" />
-    <state width="1178" height="251" key="GridCell.Tab.2.right/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284795" />
-    <state width="1178" height="251" key="GridCell.Tab.3.bottom" timestamp="1588955284795">
+    <state width="1178" height="251" key="GridCell.Tab.2.right/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307091" />
+    <state width="1178" height="251" key="GridCell.Tab.3.bottom" timestamp="1588963307091">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.3.bottom/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906349" />
-    <state width="1178" height="251" key="GridCell.Tab.3.bottom/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284795" />
-    <state width="1178" height="251" key="GridCell.Tab.3.center" timestamp="1588955284795">
+    <state width="1178" height="251" key="GridCell.Tab.3.bottom/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307091" />
+    <state width="1178" height="251" key="GridCell.Tab.3.center" timestamp="1588963307091">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.3.center/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906349" />
-    <state width="1178" height="251" key="GridCell.Tab.3.center/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284795" />
-    <state width="1178" height="251" key="GridCell.Tab.3.left" timestamp="1588955284795">
+    <state width="1178" height="251" key="GridCell.Tab.3.center/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307091" />
+    <state width="1178" height="251" key="GridCell.Tab.3.left" timestamp="1588963307091">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.3.left/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906349" />
-    <state width="1178" height="251" key="GridCell.Tab.3.left/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284795" />
-    <state width="1178" height="251" key="GridCell.Tab.3.right" timestamp="1588955284795">
+    <state width="1178" height="251" key="GridCell.Tab.3.left/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307091" />
+    <state width="1178" height="251" key="GridCell.Tab.3.right" timestamp="1588963307091">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1106" height="251" key="GridCell.Tab.3.right/3840.-175.1080.1870/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588700906349" />
-    <state width="1178" height="251" key="GridCell.Tab.3.right/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588955284795" />
+    <state width="1178" height="251" key="GridCell.Tab.3.right/3840.211.1920.1030/0.0.3072.1688/-1920.668.1920.1040@0.0.3072.1688" timestamp="1588963307091" />
     <state x="2233" y="570" key="RiderGenerateDialog" timestamp="1588681216481">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>

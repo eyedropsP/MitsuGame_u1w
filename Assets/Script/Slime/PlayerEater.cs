@@ -4,7 +4,6 @@ using Boo.Lang;
 using UniRx;
 using UnityEngine;
 using Eats;
-using UnityEditorInternal;
 
 namespace Slime
 {
@@ -93,12 +92,12 @@ namespace Slime
 				.AddTo(this);
 		}
 
-		private void OnDrawGizmos()
-		{
-			var position = transform.position;
-			Gizmos.color = Color.red;
-			Gizmos.DrawWireSphere(new Vector3(position.x + capsuleCastMinDistance, position.y + capsuleCastHeight, position.z),capsuleCastRadius);
-			Gizmos.DrawWireSphere(new Vector3(position.x + capsuleCastMinDistance, position.y - capsuleCastHeight, position.z),capsuleCastRadius);
-		}
+		// private void OnDrawGizmos()
+		// {
+		// 	var position = transform.position;
+		// 	Gizmos.color = Color.red;
+		// 	Gizmos.DrawWireSphere(new Vector3(position.x + capsuleCastMinDistance, position.y + capsuleCastHeight, position.z),capsuleCastRadius);
+		// 	Gizmos.DrawWireSphere(new Vector3(position.x + capsuleCastMinDistance, position.y - capsuleCastHeight, position.z),capsuleCastRadius);
+		// }
 	}
 }
