@@ -17,10 +17,10 @@ TagManager:
   - Platforms
   - Player
   - Bullet
-  - 
-  - 
-  - 
-  - 
+  - Camera
+  - Ground
+  - Wall
+  - Ceiling
   - 
   - 
   - 
