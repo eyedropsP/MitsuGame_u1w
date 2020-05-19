@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 1ae99530ed741b84c973c28494333b4c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: RiiMonakaWhite
+  fontNames:
+  - RiiMonakaWhite
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 13cd9f93b8c034b4c9df7c5985738de7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

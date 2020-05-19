@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4c27a268c7a7a4443930e166e7434a46
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: RiiMonakaBlack
+  fontNames:
+  - RiiMonakaBlack
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b28e51a5d8f47184994db86c29afa2bc, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
