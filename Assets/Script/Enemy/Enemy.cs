@@ -33,6 +33,8 @@ namespace Enemy
         [Header("パトロール距離カウントステップ値")][SerializeField] private float patrolCountStep = 0.01f;
 
 
+        
+
         //指定の挙動の有効/無効
         private bool enableBehaviour = false;
 
@@ -49,7 +51,10 @@ namespace Enemy
         /// </summary>
         void Awake()
         {
-            transform.position = startWayPoint.transform.position;
+            var startx = startWayPoint.transform.position.x;
+            var starty = transform.position.y;
+            var startz = startWayPoint.transform.position.z;
+            transform.position = new Vector3(startx,starty,startz);
             
         }
 
